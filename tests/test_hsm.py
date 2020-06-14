@@ -89,3 +89,11 @@ class StandbyStateTest(unittest.TestCase):
         with cls.assertRaises(UnsupportedTransition):
             cls.hsm.on_message('operator inservice')
         cls.assertEqual(isinstance(cls.hsm._current_state, Standby), True)
+
+
+class changedForGitTest():
+    def __init__():
+        pass
+    def __call__():
+        pass
+
